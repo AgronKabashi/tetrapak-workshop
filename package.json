@@ -1,0 +1,27 @@
+{
+  "name": "got",
+  "version": "0.1.0",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "json-server": "json-server --watch db.json --id name --read-only --port 3001",
+    "host": "react-scripts start",
+    "start": "run-p json-server host"
+  },
+  "devDependencies": {
+    "@agronkabashi/eslint-config": "^1.0.2",
+    "eslint": "^4.15.0",
+    "eslint-plugin-import": "^2.8.0",
+    "json-server": "^0.12.1",
+    "npm-run-all": "^4.1.2",
+    "react-scripts": "1.0.17"
+  }
+}
